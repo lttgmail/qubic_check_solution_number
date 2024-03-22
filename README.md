@@ -33,11 +33,11 @@ ltt:1********66@163.com:smtp.163.com:465    #linux系统用户名:邮箱:mailhub
 # 进入到check_solutions.sh所在文件夹，右键打开终端，在新打开的终端中执行 (Openning to the folder containing check_solutions.sh, right-click to open a terminal, and execute in the new terminal)
 sudo chmod +x check_solutions.sh
 # 编辑config.json文件 (Edit the config.json file)
-在config.json文件中修改邮箱及机器名称，json中的邮箱与前文配置文件中的邮箱不同。 (Modify the email and machine name in the config.json file, the email in json is different from the email in the previous configuration file.
+在config.json文件中修改邮箱及机器名称，json中的邮箱与前文配置文件中的邮箱不同。 (Modify the email and machine name in the config.json file, the email in json is different from the email in the previous configuration file.)
 # 间隔600s执行脚本，可自行修改，单位为秒 (Execute the script every 600s, can be modified as needed, unit is seconds)
 watch -n 600 $(pwd)/check_solutions.sh
 
-# 停止命令
+# 停止命令 (Stop command)
 ctrl+c
 
 
