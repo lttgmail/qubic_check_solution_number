@@ -6,14 +6,14 @@ sudo apt update
 sudo apt-get install mailutils
 # 安装ssmtp
 sudo apt install ssmtp
-# 进入网易云或其他邮箱 开启ssmtp
+# 进入网易云或其他邮箱 开启ssmtp，具体操作请百度
 
 sudo vim /etc/ssmtp/ssmtp.conf
 # 如果提示vim 未安装执行 sudo apt install vim
 ## 按下insert键向ssmtp.conf添加以下内容
-root=username@163.com #邮箱地址
-mailhub=smtp.163.com:465  #邮箱设置，其他邮箱请查阅相关网页
-AuthUser=username@163.com  
+root=1********66@163.com # 邮箱地址
+mailhub=smtp.163.com:465  # 邮箱设置，其他邮箱请查阅相关网页
+AuthUser=1********66@163.com  
 AuthPass=xxxxxxxx # 网易邮箱的授权码
 UseTLS=Yes
 ## 按esc键后按下小写wq，随后按下enter键退出ssmtp.conf文件
