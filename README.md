@@ -33,7 +33,7 @@ ltt:1********66@163.com:smtp.163.com:465    #用户名:邮箱:mailhub
 # 进入到check_solutions.sh所在文件夹，右键打开终端，在新打开的终端中执行
 sudo chmod +x check_solutions.sh
 # 编辑config.json文件
-在config.json文件中修改邮箱及机器名称
+在config.json文件中修改邮箱及机器名称，json中的邮箱与前文配置文件中的邮箱不同。
 # 间隔600s执行脚本，可自行修改，单位为秒
 watch -n 600 $(pwd)/check_solutions.sh
 
