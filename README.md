@@ -27,7 +27,7 @@ UseTLS=Yes\
 # 编辑配置文件
 sudo vim /etc/ssmtp/revaliases\
 按下insert键向revaliases中添加以下内容\
-ltt:1********66@163.com:smtp.163.com:465    #用户名:邮箱:mailhub\
+ltt:1********66@163.com:smtp.163.com:465    #linux系统用户名:邮箱:mailhub\
 按esc键后按下小写wq，随后按下enter键退出revaliases文件\
 
 # 进入到check_solutions.sh所在文件夹，右键打开终端，在新打开的终端中执行
