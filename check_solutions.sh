@@ -17,5 +17,5 @@ old_value=$(cat "$SAVE_FILE")
 if [ "$FOUND_SOLUTIONS" -gt "$old_value" ]; then
     echo "$FOUND_SOLUTIONS" > "$SAVE_FILE"
     
-    echo "Found $((FOUND_SOLUTIONS-old_value))）New Solutions, total solutions $FOUND_SOLUTIONS" | mail -s "$NODE_NAME" "$EMAIL"
+    echo "Found $((FOUND_SOLUTIONS-old_value)) New Solutions, total solutions on $NODE_NAME are $FOUND_SOLUTIONS" | mail -s "$NODE_NAME" "$EMAIL"
 fi
