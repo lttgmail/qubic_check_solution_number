@@ -17,11 +17,11 @@ https://blog.csdn.net/qq_34345149/article/details/107483029
 # 编辑配置文件
 sudo vim /etc/ssmtp/ssmtp.conf
 按下insert键向ssmtp.conf添加以下内容:
-root=1********66@163.com
-mailhub=smtp.163.com:465
-AuthUser=1********66@163.com
-AuthPass=xxxxxxxx # 网易邮箱授权密码
-UseTLS=Yes
+root=1********66@163.com\
+mailhub=smtp.163.com:465\
+AuthUser=1********66@163.com\
+AuthPass=xxxxxxxx # 网易邮箱授权密码\
+UseTLS=Yes\
 按esc键后按下小写wq，随后按下enter键退出ssmtp.conf文件
 
 # 编辑配置文件
