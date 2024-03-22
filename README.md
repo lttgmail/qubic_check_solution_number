@@ -35,6 +35,9 @@ sudo chmod +x check_solutions.sh
 # 编辑config.json文件
 在config.json文件中修改邮箱及机器名称
 # 间隔600s执行脚本，可自行修改，单位为秒
-watch -n 600 /$(pwd)/check_solutions.sh
+watch -n 600 $(pwd)/check_solutions.sh
+
+# 停止命令
+ctrl+c
 
 
