@@ -15,8 +15,8 @@ sudo apt install jq
 https://blog.csdn.net/qq_34345149/article/details/107483029
 
 # 编辑配置文件
-sudo vim /etc/ssmtp/ssmtp.conf
-按下insert键向ssmtp.conf添加以下内容:
+sudo vim /etc/ssmtp/ssmtp.conf\
+按下insert键向ssmtp.conf添加以下内容:\
 root=1********66@163.com\
 mailhub=smtp.163.com:465\
 AuthUser=1********66@163.com\
@@ -25,10 +25,10 @@ UseTLS=Yes\
 按esc键后按下小写wq，随后按下enter键退出ssmtp.conf文件
 
 # 编辑配置文件
-sudo vim /etc/ssmtp/revaliases
-按下insert键向revaliases中添加以下内容
-ltt:1********66@163.com:smtp.163.com:465    #用户名:邮箱:mailhub
-按esc键后按下小写wq，随后按下enter键退出revaliases文件
+sudo vim /etc/ssmtp/revaliases\
+按下insert键向revaliases中添加以下内容\
+ltt:1********66@163.com:smtp.163.com:465    #用户名:邮箱:mailhub\
+按esc键后按下小写wq，随后按下enter键退出revaliases文件\
 
 # 进入到check_solutions.sh所在文件夹，右键打开终端，在新打开的终端中执行
 sudo chmod +x check_solutions.sh
